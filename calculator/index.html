@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css"> 
+    <title>Try out</title>
+</head>
+<body>
+    <table>
+     <tr><td colspan="4"><div type="number" id="display">0</div></td></tr>
+     <tr>
+    <td onclick="clearDisplay()">c</td>
+    <td onclick="data('7')">7</td>
+    <td onclick="data('8')">8</td>
+    <td onclick="data('9')">9</td>
+    </tr>
+     <tr>
+      <td onclick="data('+')">+</td>
+      <td onclick="data('4')">4</td>
+      <td onclick="data('5')">5</td>
+      <td onclick="data('6')">6</td>
+     </tr>
+     <tr>
+      <td onclick="data('-')">-</td>
+      <td onclick="data('1')">1</td>
+      <td onclick="data('2')">2</td>
+      <td onclick="data('3')">3</td>
+     </tr>
+     <tr>
+      <td onclick="data('*')">*</td>
+      <td onclick="data('0')">0</td>
+      <td onclick="data('.')">.</td>
+      <td onclick="calculate()" id="answer">=</td>
+     </tr>
+     <tr>
+      <td onclick="data('/')">/</td>
+      <td colspan="3" style="text-align: center;">Charles Design</td>
+     </tr>
+    </table>
+      <script src="index.js"></script>
+</body>
+</html>    
